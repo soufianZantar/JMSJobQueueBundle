@@ -1,6 +1,6 @@
 <?php
 
-namespace JMS\JobQueueBundle\Tests\Functional;
+namespace Atexo\JobQueueBundle\Tests\Functional;
 
 // Set-up composer auto-loading if Client is insulated.
 call_user_func(function() {
@@ -45,8 +45,8 @@ class AppKernel extends Kernel
             new \Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new \Symfony\Bundle\TwigBundle\TwigBundle(),
 
-            new \JMS\JobQueueBundle\Tests\Functional\TestBundle\TestBundle(),
-            new \JMS\JobQueueBundle\JMSJobQueueBundle(),
+            new \Atexo\JobQueueBundle\Tests\Functional\TestBundle\TestBundle(),
+            new \Atexo\JobQueueBundle\JMSJobQueueBundle(),
         );
     }
 

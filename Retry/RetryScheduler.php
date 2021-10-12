@@ -1,8 +1,8 @@
 <?php
 
-namespace JMS\JobQueueBundle\Retry;
+namespace Atexo\JobQueueBundle\Retry;
 
-use JMS\JobQueueBundle\Entity\Job;
+use Atexo\JobQueueBundle\Entity\Job;
 
 interface RetryScheduler
 {

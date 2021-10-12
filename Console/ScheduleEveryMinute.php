@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace JMS\JobQueueBundle\Console;
+namespace Atexo\JobQueueBundle\Console;
 
-use JMS\JobQueueBundle\Entity\Job;
+use Atexo\JobQueueBundle\Entity\Job;
 use Symfony\Component\Console\Command\Command;
 
 trait ScheduleEveryMinute

@@ -1,9 +1,9 @@
 <?php
 
-namespace JMS\JobQueueBundle\Tests\Functional\TestBundle\Command;
+namespace Atexo\JobQueueBundle\Tests\Functional\TestBundle\Command;
 
-use JMS\JobQueueBundle\Console\CronCommand;
-use JMS\JobQueueBundle\Entity\Job;
+use Atexo\JobQueueBundle\Console\CronCommand;
+use Atexo\JobQueueBundle\Entity\Job;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

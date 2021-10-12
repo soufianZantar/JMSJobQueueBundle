@@ -16,10 +16,10 @@
  * limitations under the License.
  */
 
-namespace JMS\JobQueueBundle\Event;
+namespace Atexo\JobQueueBundle\Event;
 
-use JMS\JobQueueBundle\Entity\Job;
-use JMS\JobQueueBundle\Event\JobEvent;
+use Atexo\JobQueueBundle\Entity\Job;
+use Atexo\JobQueueBundle\Event\JobEvent;
 
 class StateChangeEvent extends JobEvent
 {

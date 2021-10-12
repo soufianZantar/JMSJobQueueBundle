@@ -1,6 +1,6 @@
 <?php
 
-namespace JMS\JobQueueBundle\Twig;
+namespace Atexo\JobQueueBundle\Twig;
 
 interface LinkGeneratorInterface
 {

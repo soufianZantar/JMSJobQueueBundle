@@ -1,8 +1,8 @@
 <?php
 
-namespace JMS\JobQueueBundle\Entity\Listener;
+namespace Atexo\JobQueueBundle\Entity\Listener;
 use Doctrine\ORM\Event\LifecycleEventArgs;
-use JMS\JobQueueBundle\Entity\Job;
+use Atexo\JobQueueBundle\Entity\Job;
 use Doctrine\Bundle\DoctrineBundle\Registry;
 
 /**
@@ -23,14 +23,14 @@ class ManyToAnyListener
     public function __construct(Registry $registry)
     {
         $this->registry = $registry;
-        $this->ref = new \ReflectionProperty('JMS\JobQueueBundle\Entity\Job', 'relatedEntities');
+        $this->ref = new \ReflectionProperty('Atexo\JobQueueBundle\Entity\Job', 'relatedEntities');
         $this->ref->setAccessible(true);
     }
 
     public function postLoad(\Doctrine\ORM\Event\LifecycleEventArgs $event)
     {
         $entity = $event->getEntity();
-        if ( ! $entity instanceof \JMS\JobQueueBundle\Entity\Job) {
+        if ( ! $entity instanceof \Atexo\JobQueueBundle\Entity\Job) {
             return;
         }
 
@@ -53,7 +53,7 @@ class ManyToAnyListener
     public function postPersist(\Doctrine\ORM\Event\LifecycleEventArgs $event)
     {
         $entity = $event->getEntity();
-        if ( ! $entity instanceof \JMS\JobQueueBundle\Entity\Job) {
+        if ( ! $entity instanceof \Atexo\JobQueueBundle\Entity\Job) {
             return;
         }
 
@@ -80,7 +80,7 @@ class ManyToAnyListener
         $schema = $event->getSchema();
 
         // When using multiple entity managers ignore events that are triggered by other entity managers.
-        if ($event->getEntityManager()->getMetadataFactory()->isTransient('JMS\JobQueueBundle\Entity\Job')) {
+        if ($event->getEntityManager()->getMetadataFactory()->isTransient('Atexo\JobQueueBundle\Entity\Job')) {
             return;
         }
 

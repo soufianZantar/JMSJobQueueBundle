@@ -1,6 +1,6 @@
 <?php
 
-namespace JMS\JobQueueBundle\Entity\Type;
+namespace Atexo\JobQueueBundle\Entity\Type;
 
 use Doctrine\DBAL\Types\ObjectType;
 

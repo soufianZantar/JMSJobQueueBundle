@@ -1,6 +1,6 @@
 <?php
 
-namespace JMS\JobQueueBundle\Entity\Listener;
+namespace Atexo\JobQueueBundle\Entity\Listener;
 
 use ArrayIterator;
 use Closure;
@@ -10,7 +10,7 @@ use Doctrine\Common\Collections\Criteria;
 use Doctrine\Common\Collections\Expr\ClosureExpressionVisitor;
 use Doctrine\Common\Collections\Selectable;
 use Doctrine\Bundle\DoctrineBundle\Registry;
-use JMS\JobQueueBundle\Entity\Job;
+use Atexo\JobQueueBundle\Entity\Job;
 
 /**
  * Collection for persistent related entities.

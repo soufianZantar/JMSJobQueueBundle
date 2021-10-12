@@ -1,8 +1,8 @@
 <?php
 
-namespace JMS\JobQueueBundle\Tests\Functional;
+namespace Atexo\JobQueueBundle\Tests\Functional;
 
-use JMS\JobQueueBundle\Entity\Job;
+use Atexo\JobQueueBundle\Entity\Job;
 use Symfony\Component\Console\Output\Output;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Bundle\FrameworkBundle\Console\Application;

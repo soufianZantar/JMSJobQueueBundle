@@ -16,9 +16,9 @@
  * limitations under the License.
  */
 
-namespace JMS\JobQueueBundle\Event;
+namespace Atexo\JobQueueBundle\Event;
 
-use JMS\JobQueueBundle\Entity\Job;
+use Atexo\JobQueueBundle\Entity\Job;
 use Symfony\Component\EventDispatcher\Event;
 
 abstract class JobEvent extends Event

@@ -1,19 +1,19 @@
 <?php
 
-namespace JMS\JobQueueBundle\Tests\Functional;
+namespace Atexo\JobQueueBundle\Tests\Functional;
 
-use JMS\JobQueueBundle\Retry\ExponentialRetryScheduler;
-use JMS\JobQueueBundle\Retry\RetryScheduler;
-use JMS\JobQueueBundle\Tests\Functional\TestBundle\Entity\Train;
+use Atexo\JobQueueBundle\Retry\ExponentialRetryScheduler;
+use Atexo\JobQueueBundle\Retry\RetryScheduler;
+use Atexo\JobQueueBundle\Tests\Functional\TestBundle\Entity\Train;
 
-use JMS\JobQueueBundle\Tests\Functional\TestBundle\Entity\Wagon;
+use Atexo\JobQueueBundle\Tests\Functional\TestBundle\Entity\Wagon;
 
 use PHPUnit\Framework\Constraint\LogicalNot;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Doctrine\ORM\EntityManager;
-use JMS\JobQueueBundle\Entity\Repository\JobManager;
-use JMS\JobQueueBundle\Event\StateChangeEvent;
-use JMS\JobQueueBundle\Entity\Job;
+use Atexo\JobQueueBundle\Entity\Repository\JobManager;
+use Atexo\JobQueueBundle\Event\StateChangeEvent;
+use Atexo\JobQueueBundle\Entity\Job;
 
 class JobManagerTest extends BaseTestCase
 {
@@ -279,7 +279,7 @@ class JobManagerTest extends BaseTestCase
 
         $reloadedJ = $this->em->find('JMSJobQueueBundle:Job', $j->getId());
 
-        $reloadedWagon = $reloadedJ->findRelatedEntity('JMS\JobQueueBundle\Tests\Functional\TestBundle\Entity\Wagon');
+        $reloadedWagon = $reloadedJ->findRelatedEntity('Atexo\JobQueueBundle\Tests\Functional\TestBundle\Entity\Wagon');
         $reloadedWagon->state = 'broken';
         $defEm->persist($reloadedWagon);
         $defEm->flush();

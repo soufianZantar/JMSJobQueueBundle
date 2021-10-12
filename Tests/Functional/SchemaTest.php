@@ -1,6 +1,6 @@
 <?php
 
-namespace JMS\JobQueueBundle\Tests\Functional;
+namespace Atexo\JobQueueBundle\Tests\Functional;
 
 use Doctrine\ORM\Tools\SchemaValidator;
 

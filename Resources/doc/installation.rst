@@ -41,7 +41,7 @@ new bundle:
     // in AppKernel::registerBundles()
     $bundles = array(
         // ...
-        new JMS\JobQueueBundle\JMSJobQueueBundle(),
+        new Atexo\JobQueueBundle\JMSJobQueueBundle(),
         // ...
     );
 
@@ -50,7 +50,7 @@ Finally, have your ``app/console`` use JMSJobQueueBundle's ``Application``:
 .. code-block :: php
 
     // use Symfony\Bundle\FrameworkBundle\Console\Application;
-    use JMS\JobQueueBundle\Console\Application;
+    use Atexo\JobQueueBundle\Console\Application;
 
 
 Enabling the Webinterface

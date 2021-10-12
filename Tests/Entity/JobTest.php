@@ -16,9 +16,9 @@
  * limitations under the License.
  */
 
-namespace JMS\JobQueueBundle\Tests\Entity;
+namespace Atexo\JobQueueBundle\Tests\Entity;
 
-use JMS\JobQueueBundle\Entity\Job;
+use Atexo\JobQueueBundle\Entity\Job;
 use PHPUnit\Framework\TestCase;
 
 class JobTest extends TestCase
@@ -38,7 +38,7 @@ class JobTest extends TestCase
 
     /**
      * @depends testConstruct
-     * @expectedException JMS\JobQueueBundle\Exception\InvalidStateTransitionException
+     * @expectedException Atexo\JobQueueBundle\Exception\InvalidStateTransitionException
      */
     public function testInvalidTransition(Job $job)
     {

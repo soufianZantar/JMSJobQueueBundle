@@ -1,6 +1,6 @@
 <?php
 
-namespace JMS\JobQueueBundle\View;
+namespace Atexo\JobQueueBundle\View;
 
 use Symfony\Component\HttpFoundation\Request;
 
