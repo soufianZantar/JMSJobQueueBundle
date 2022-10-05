@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace Atexo\JobQueueBundle\Console;
+namespace JMS\JobQueueBundle\Console;
 
-use Atexo\JobQueueBundle\Entity\Job;
+use JMS\JobQueueBundle\Entity\Job;
 
 interface CronCommand
 {

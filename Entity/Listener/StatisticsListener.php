@@ -1,6 +1,6 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Entity\Listener;
+namespace JMS\JobQueueBundle\Entity\Listener;
 
 use Doctrine\ORM\Tools\Event\GenerateSchemaEventArgs;
 
@@ -11,7 +11,7 @@ class StatisticsListener
         $schema = $event->getSchema();
 
         // When using multiple entity managers ignore events that are triggered by other entity managers.
-        if ($event->getEntityManager()->getMetadataFactory()->isTransient('Atexo\JobQueueBundle\Entity\Job')) {
+        if ($event->getEntityManager()->getMetadataFactory()->isTransient('JMS\JobQueueBundle\Entity\Job')) {
             return;
         }
 

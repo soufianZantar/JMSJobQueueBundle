@@ -5,7 +5,7 @@ framework:
         resource: "%kernel.root_dir%/config/routing.yml"
 
 services:
-    Atexo\JobQueueBundle\Tests\Functional\TestBundle\Command\:
+    JMS\JobQueueBundle\Tests\Functional\TestBundle\Command\:
         autoconfigure: true
         autowire: true
         resource: '../TestBundle/Command'

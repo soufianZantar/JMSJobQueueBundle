@@ -1,9 +1,9 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Tests\Functional;
+namespace JMS\JobQueueBundle\Tests\Functional;
 
 use Doctrine\ORM\EntityManager;
-use Atexo\JobQueueBundle\Entity\Job;
+use JMS\JobQueueBundle\Entity\Job;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Process\Process;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Command;
+namespace JMS\JobQueueBundle\Command;
 
 use Doctrine\Bundle\DoctrineBundle\Registry;
 use Doctrine\DBAL\Connection;
 use Doctrine\ORM\EntityManager;
-use Atexo\JobQueueBundle\Entity\Job;
-use Atexo\JobQueueBundle\Entity\Repository\JobManager;
+use JMS\JobQueueBundle\Entity\Job;
+use JMS\JobQueueBundle\Entity\Repository\JobManager;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;

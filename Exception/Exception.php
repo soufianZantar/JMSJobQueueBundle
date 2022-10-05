@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-namespace Atexo\JobQueueBundle\Exception;
+namespace JMS\JobQueueBundle\Exception;
 
 /**
  * Base exception for the JobQueueBundle.

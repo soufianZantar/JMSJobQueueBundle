@@ -1,6 +1,6 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Tests\Functional;
+namespace JMS\JobQueueBundle\Tests\Functional;
 
 use Doctrine\ORM\EntityManager;
 

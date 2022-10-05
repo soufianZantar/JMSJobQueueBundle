@@ -1,6 +1,6 @@
 <?php
 
-namespace Atexo\JobQueueBundle\DependencyInjection\CompilerPass;
+namespace JMS\JobQueueBundle\DependencyInjection\CompilerPass;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

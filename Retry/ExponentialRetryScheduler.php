@@ -1,8 +1,8 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Retry;
+namespace JMS\JobQueueBundle\Retry;
 
-use Atexo\JobQueueBundle\Entity\Job;
+use JMS\JobQueueBundle\Entity\Job;
 
 class ExponentialRetryScheduler implements RetryScheduler
 {

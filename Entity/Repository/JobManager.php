@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-namespace Atexo\JobQueueBundle\Entity\Repository;
+namespace JMS\JobQueueBundle\Entity\Repository;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Util\ClassUtils;
@@ -25,10 +25,10 @@ use Doctrine\DBAL\Types\Type;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Query\Parameter;
 use Doctrine\ORM\Query\ResultSetMappingBuilder;
-use Atexo\JobQueueBundle\Entity\Job;
-use Atexo\JobQueueBundle\Event\StateChangeEvent;
-use Atexo\JobQueueBundle\Retry\ExponentialRetryScheduler;
-use Atexo\JobQueueBundle\Retry\RetryScheduler;
+use JMS\JobQueueBundle\Entity\Job;
+use JMS\JobQueueBundle\Event\StateChangeEvent;
+use JMS\JobQueueBundle\Retry\ExponentialRetryScheduler;
+use JMS\JobQueueBundle\Retry\RetryScheduler;
 use Symfony\Bridge\Doctrine\ManagerRegistry;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 

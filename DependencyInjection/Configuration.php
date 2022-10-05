@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-namespace Atexo\JobQueueBundle\DependencyInjection;
+namespace JMS\JobQueueBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Cron;
+namespace JMS\JobQueueBundle\Cron;
 
-use Atexo\JobQueueBundle\Console\CronCommand;
-use Atexo\JobQueueBundle\Entity\Job;
+use JMS\JobQueueBundle\Console\CronCommand;
+use JMS\JobQueueBundle\Entity\Job;
 
 class CommandScheduler implements JobScheduler
 {

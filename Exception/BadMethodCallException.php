@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-namespace Atexo\JobQueueBundle\Exception;
+namespace JMS\JobQueueBundle\Exception;
 
 /**
  * BadMethodCallException for the JobQueueBundle.

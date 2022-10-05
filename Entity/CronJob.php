@@ -1,6 +1,6 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Entity;
+namespace JMS\JobQueueBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 

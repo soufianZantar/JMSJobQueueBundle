@@ -1,8 +1,8 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Cron;
+namespace JMS\JobQueueBundle\Cron;
 
-use Atexo\JobQueueBundle\Entity\Job;
+use JMS\JobQueueBundle\Entity\Job;
 
 interface JobScheduler
 {

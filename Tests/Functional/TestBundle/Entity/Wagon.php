@@ -1,6 +1,6 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Tests\Functional\TestBundle\Entity;
+namespace JMS\JobQueueBundle\Tests\Functional\TestBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 

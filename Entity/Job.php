@@ -16,12 +16,12 @@
  * limitations under the License.
  */
 
-namespace Atexo\JobQueueBundle\Entity;
+namespace JMS\JobQueueBundle\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
-use Atexo\JobQueueBundle\Exception\InvalidStateTransitionException;
-use Atexo\JobQueueBundle\Exception\LogicException;
+use JMS\JobQueueBundle\Exception\InvalidStateTransitionException;
+use JMS\JobQueueBundle\Exception\LogicException;
 use Symfony\Component\Debug\Exception\FlattenException;
 
 /**

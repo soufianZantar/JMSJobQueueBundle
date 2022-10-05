@@ -1,6 +1,6 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Tests\Functional\TestBundle\Command;
+namespace JMS\JobQueueBundle\Tests\Functional\TestBundle\Command;
 
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Output\OutputInterface;

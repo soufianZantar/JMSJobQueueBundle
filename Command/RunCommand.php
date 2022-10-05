@@ -16,14 +16,14 @@
  * limitations under the License.
  */
 
-namespace Atexo\JobQueueBundle\Command;
+namespace JMS\JobQueueBundle\Command;
 
 use Doctrine\ORM\EntityManager;
-use Atexo\JobQueueBundle\Entity\Job;
-use Atexo\JobQueueBundle\Entity\Repository\JobManager;
-use Atexo\JobQueueBundle\Event\NewOutputEvent;
-use Atexo\JobQueueBundle\Event\StateChangeEvent;
-use Atexo\JobQueueBundle\Exception\InvalidArgumentException;
+use JMS\JobQueueBundle\Entity\Job;
+use JMS\JobQueueBundle\Entity\Repository\JobManager;
+use JMS\JobQueueBundle\Event\NewOutputEvent;
+use JMS\JobQueueBundle\Event\StateChangeEvent;
+use JMS\JobQueueBundle\Exception\InvalidArgumentException;
 use Symfony\Bridge\Doctrine\ManagerRegistry;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;

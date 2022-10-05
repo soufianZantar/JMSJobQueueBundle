@@ -16,10 +16,10 @@
  * limitations under the License.
  */
 
-namespace Atexo\JobQueueBundle;
+namespace JMS\JobQueueBundle;
 
-use Atexo\JobQueueBundle\DependencyInjection\CompilerPass\JobSchedulersPass;
-use Atexo\JobQueueBundle\DependencyInjection\CompilerPass\LinkGeneratorsPass;
+use JMS\JobQueueBundle\DependencyInjection\CompilerPass\JobSchedulersPass;
+use JMS\JobQueueBundle\DependencyInjection\CompilerPass\LinkGeneratorsPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

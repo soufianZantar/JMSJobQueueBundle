@@ -1,15 +1,15 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Command;
+namespace JMS\JobQueueBundle\Command;
 
 use Doctrine\Bundle\DoctrineBundle\Registry;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Query;
-use Atexo\JobQueueBundle\Console\CronCommand;
-use Atexo\JobQueueBundle\Cron\CommandScheduler;
-use Atexo\JobQueueBundle\Cron\JobScheduler;
-use Atexo\JobQueueBundle\Entity\CronJob;
-use Atexo\JobQueueBundle\Entity\Job;
+use JMS\JobQueueBundle\Console\CronCommand;
+use JMS\JobQueueBundle\Cron\CommandScheduler;
+use JMS\JobQueueBundle\Cron\JobScheduler;
+use JMS\JobQueueBundle\Entity\CronJob;
+use JMS\JobQueueBundle\Entity\Job;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;

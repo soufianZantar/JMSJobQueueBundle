@@ -16,10 +16,10 @@
  * limitations under the License.
  */
 
-namespace Atexo\JobQueueBundle\Event;
+namespace JMS\JobQueueBundle\Event;
 
-use Atexo\JobQueueBundle\Entity\Job;
-use Atexo\JobQueueBundle\Event\JobEvent;
+use JMS\JobQueueBundle\Entity\Job;
+use JMS\JobQueueBundle\Event\JobEvent;
 
 class NewOutputEvent extends JobEvent
 {

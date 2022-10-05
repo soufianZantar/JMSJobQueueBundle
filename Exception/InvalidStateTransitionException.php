@@ -16,9 +16,9 @@
  * limitations under the License.
  */
 
-namespace Atexo\JobQueueBundle\Exception;
+namespace JMS\JobQueueBundle\Exception;
 
-use Atexo\JobQueueBundle\Entity\Job;
+use JMS\JobQueueBundle\Entity\Job;
 
 class InvalidStateTransitionException extends \InvalidArgumentException
 {

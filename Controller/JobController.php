@@ -1,12 +1,12 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Controller;
+namespace JMS\JobQueueBundle\Controller;
 
 use Doctrine\Common\Util\ClassUtils;
 use Doctrine\ORM\EntityManager;
-use Atexo\JobQueueBundle\Entity\Job;
-use Atexo\JobQueueBundle\Entity\Repository\JobManager;
-use Atexo\JobQueueBundle\View\JobFilter;
+use JMS\JobQueueBundle\Entity\Job;
+use JMS\JobQueueBundle\Entity\Repository\JobManager;
+use JMS\JobQueueBundle\View\JobFilter;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\RedirectResponse;

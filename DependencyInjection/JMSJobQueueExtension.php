@@ -16,11 +16,11 @@
  * limitations under the License.
  */
 
-namespace Atexo\JobQueueBundle\DependencyInjection;
+namespace JMS\JobQueueBundle\DependencyInjection;
 
-use Atexo\JobQueueBundle\Console\CronCommand;
-use Atexo\JobQueueBundle\Cron\JobScheduler;
-use Atexo\JobQueueBundle\Entity\Type\SafeObjectType;
+use JMS\JobQueueBundle\Console\CronCommand;
+use JMS\JobQueueBundle\Cron\JobScheduler;
+use JMS\JobQueueBundle\Entity\Type\SafeObjectType;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\Extension\PrependExtensionInterface;

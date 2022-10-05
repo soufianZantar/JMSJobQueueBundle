@@ -1,6 +1,6 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Twig;
+namespace JMS\JobQueueBundle\Twig;
 
 class JobQueueExtension extends \Twig_Extension
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Atexo\JobQueueBundle\Console;
+namespace JMS\JobQueueBundle\Console;
 
 declare(ticks = 10000000);
 
